@@ -1,0 +1,164 @@
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\ApplicationInsights.config
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\csc.exe
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\System.Collections.Immutable.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\vbc.exe
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\VBCSCompiler.exe
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\roslyn\VBCSCompiler.exe.config
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Matechco.dll.config
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Matechco.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Matechco.pdb
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Antlr3.Runtime.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\EntityFramework.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\EntityFramework.SqlServer.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.Web.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.WindowsServer.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.ApplicationInsights.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Google.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Web.Infrastructure.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Newtonsoft.Json.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Owin.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Helpers.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Mvc.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Optimization.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Razor.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.Deployment.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.Razor.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\WebGrease.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.Web.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AI.WindowsServer.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.ApplicationInsights.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Helpers.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Mvc.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Optimization.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.Razor.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.Deployment.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\System.Web.WebPages.Razor.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Antlr3.Runtime.pdb
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Newtonsoft.Json.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\EntityFramework.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\EntityFramework.SqlServer.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Google.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\obj\Debug\Matechco.csprojResolveAssemblyReference.cache
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\obj\Debug\Matechco.dll
+c:\users\dev\documents\visual studio 2015\Projects\Matechco\Matechco\obj\Debug\Matechco.pdb
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\ApplicationInsights.config
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\csc.exe
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\vbc.exe
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\VBCSCompiler.exe
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Matechco.dll.config
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Matechco.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Matechco.pdb
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Antlr3.Runtime.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\EntityFramework.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\EntityFramework.SqlServer.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.Web.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Newtonsoft.Json.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Owin.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Helpers.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Mvc.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Optimization.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Razor.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.Razor.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\WebGrease.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.Web.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Helpers.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Mvc.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Optimization.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.Razor.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\System.Web.WebPages.Razor.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Antlr3.Runtime.pdb
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Newtonsoft.Json.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\EntityFramework.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\EntityFramework.SqlServer.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\obj\Debug\Matechco.csprojResolveAssemblyReference.cache
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\obj\Debug\Matechco.dll
+C:\Users\Naveel\Downloads\Matechco\Matechco\Matechco\obj\Debug\Matechco.pdb
