@@ -20,7 +20,7 @@ namespace Matechco.Models
                 }
                 else
                 {
-                    return JsonConvert.DeserializeObject<vu_users>(HttpContext.Current.Session["App"].ToString());
+                    return HttpContext.Current.Session["App"] as vu_users;
                 }
             }
             set
@@ -29,6 +29,6 @@ namespace Matechco.Models
                 HttpContext.Current.Session["App"] = JsonConvert.SerializeObject(value).ToString();
             }
         }
-        public object UserAccountObj { get; set; }
+        public string Token { get; set; }
     }
 }

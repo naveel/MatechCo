@@ -21,11 +21,19 @@ namespace Matechco
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Content/jquery/dist/jquery.min.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+            bundles.Add(new ScriptBundle("~/CommonScripts").Include(
+                      "~/Content/plugins/toastr/toastr.min.js",
+                      "~/Content/plugins/toastr/notify.js"));
+
+            bundles.Add(new StyleBundle("~/CommonStyles").Include(
+                "~/Content/font-awesome/css/font-awesome.min.css",
+                      "~/Content/plugins/toastr/toastr.min.css"));
         }
     }
 }

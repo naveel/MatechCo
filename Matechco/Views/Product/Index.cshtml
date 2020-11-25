@@ -4,8 +4,9 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<link href="~/bower_components/datatables/jquery.dataTables.min.css" rel="stylesheet" />
-<script src="~/bower_components/datatables/jquery.dataTables.js"></script>
+@section styles{
+    <link href="~/Content/datatables/jquery.dataTables.min.css" rel="stylesheet" />
+}
 
 
 <div class="row">
@@ -13,9 +14,7 @@
         <div class="box box-primary">
             <div class="box-header with-border">
                 <h3 class="box-title">Product</h3>
-                <div class="box-tools pull-right">
-                    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary " })
-                </div><!-- /.box-tools -->
+               @Html.ActionLink("Add New", "Create", null, new { @class = "btn btn-sm btn-primary" })
             </div><!-- /.box-header -->
             <div class="box-body">
                 <div class="row">
@@ -47,12 +46,19 @@
         </div>
     </div>
 </div>
-
+@section scripts{
+    <script src="~/Content/datatables/jquery.dataTables.js"></script>
+@{
+    if (TempData["Notify"] != null)
+    {
+        <script>Notify("@TempData["NotifyType"].ToString()", "@TempData["Notify"].ToString()");</script>
+    }
+}
 <script>
     $(document).ready(function () {
 
         $.ajax({
-            url: "/IndividualCustomer/GetData",
+            url: "/Product/GetData",
             type: "POST",
             datatype: "json",
             success: function (data) {
@@ -97,3 +103,4 @@
         });
     });
 </script>
+    }

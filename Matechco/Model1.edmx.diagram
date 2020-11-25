@@ -5,7 +5,8 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="7c9897d7b37845719a80033b2625c4cc" Name="Diagram1">
-        <EntityTypeShape EntityType="MatechcoModel.tbl_product" Width="1.5" PointX="3.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MatechcoModel.tbl_product" Width="1.5" PointX="0.75" PointY="0.75" />
+        <EntityTypeShape EntityType="MatechcoModel.tbl_productType" Width="1.5" PointX="2.75" PointY="0.75" />
         <EntityTypeShape EntityType="MatechcoModel.tbl_users" Width="1.5" PointX="0.75" PointY="3.75" />
       </Diagram>
     </edmx:Diagrams>

@@ -12,6 +12,8 @@ namespace Matechco
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class MatechcoEntities : DbContext
     {
@@ -26,6 +28,16 @@ namespace Matechco
         }
     
         public virtual DbSet<tbl_product> tbl_product { get; set; }
+        public virtual DbSet<tbl_productType> tbl_productType { get; set; }
         public virtual DbSet<tbl_users> tbl_users { get; set; }
+    
+        public virtual ObjectResult<SP_GenerateProductCode_Result> SP_GenerateProductCode(Nullable<int> id)
+        {
+            var idParameter = id.HasValue ?
+                new ObjectParameter("Id", id) :
+                new ObjectParameter("Id", typeof(int));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<SP_GenerateProductCode_Result>("SP_GenerateProductCode", idParameter);
+        }
     }
 }

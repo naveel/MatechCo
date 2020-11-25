@@ -6,6 +6,16 @@
         <MappingFragment StoreEntitySet="tbl_product">
           <ScalarProperty Name="Code" ColumnName="Code" />
           <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ProductTypeId" ColumnName="ProductTypeId" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbl_productType">
+      <EntityTypeMapping TypeName="MatechcoModel.tbl_productType">
+        <MappingFragment StoreEntitySet="tbl_productType">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
           <ScalarProperty Name="Id" ColumnName="Id" />
         </MappingFragment>
       </EntityTypeMapping>
@@ -23,5 +33,13 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_GenerateProductCode" FunctionName="MatechcoModel.Store.SP_GenerateProductCode">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MatechcoModel.SP_GenerateProductCode_Result">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
   </EntityContainerMapping>
 </Mapping>

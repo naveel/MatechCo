@@ -15,6 +15,7 @@ namespace Matechco
     public partial class tbl_product
     {
         public int Id { get; set; }
+        public Nullable<int> ProductTypeId { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }
     }

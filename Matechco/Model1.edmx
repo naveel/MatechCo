@@ -10,7 +10,16 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductTypeId" Type="int" />
           <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="Code" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="tbl_productType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ProductType" Type="nvarchar" MaxLength="50" />
           <Property Name="Code" Type="nvarchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="tbl_users">
@@ -25,10 +34,12 @@
           <Property Name="created_by" Type="int" />
           <Property Name="created_on" Type="datetime" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <Function Name="SP_GenerateProductCode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="Id" Type="int" Mode="In" />
+        </Function>
         <EntityContainer Name="MatechcoModelStoreContainer">
           <EntitySet Name="tbl_product" EntityType="Self.tbl_product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="tbl_productType" EntityType="Self.tbl_productType" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="tbl_users" EntityType="Self.tbl_users" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -37,14 +48,27 @@ warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key
       <Schema Namespace="MatechcoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityContainer Name="MatechcoEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="tbl_product" EntityType="MatechcoModel.tbl_product" />
+          <EntitySet Name="tbl_productType" EntityType="MatechcoModel.tbl_productType" />
           <EntitySet Name="tbl_users" EntityType="MatechcoModel.tbl_users" />
+          <FunctionImport Name="SP_GenerateProductCode" ReturnType="Collection(MatechcoModel.SP_GenerateProductCode_Result)">
+            <Parameter Name="Id" Mode="In" Type="Int32" />
+          </FunctionImport>
         </EntityContainer>
         <EntityType Name="tbl_product">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductTypeId" Type="Int32" />
           <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="tbl_productType">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="tbl_users">
@@ -59,6 +83,10 @@ warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key
           <Property Name="created_by" Type="Int32" />
           <Property Name="created_on" Type="DateTime" Precision="3" />
         </EntityType>
+        <ComplexType Name="SP_GenerateProductCode_Result">
+          <Property Type="String" Name="code" Nullable="true" MaxLength="50" />
+          <Property Type="String" Name="Id" Nullable="true" MaxLength="3" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -70,6 +98,16 @@ warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key
               <MappingFragment StoreEntitySet="tbl_product">
                 <ScalarProperty Name="Code" ColumnName="Code" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ProductTypeId" ColumnName="ProductTypeId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tbl_productType">
+            <EntityTypeMapping TypeName="MatechcoModel.tbl_productType">
+              <MappingFragment StoreEntitySet="tbl_productType">
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="ProductType" ColumnName="ProductType" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
@@ -87,6 +125,14 @@ warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="SP_GenerateProductCode" FunctionName="MatechcoModel.Store.SP_GenerateProductCode">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="MatechcoModel.SP_GenerateProductCode_Result">
+                <ScalarProperty Name="code" ColumnName="code" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

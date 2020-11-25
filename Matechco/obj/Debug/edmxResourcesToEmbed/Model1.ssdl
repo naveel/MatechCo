@@ -5,7 +5,16 @@
       <PropertyRef Name="Id" />
     </Key>
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductTypeId" Type="int" />
     <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tbl_productType">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductType" Type="nvarchar" MaxLength="50" />
     <Property Name="Code" Type="nvarchar" MaxLength="50" />
   </EntityType>
   <EntityType Name="tbl_users">
@@ -20,10 +29,12 @@
     <Property Name="created_by" Type="int" />
     <Property Name="created_on" Type="datetime" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'Matechco.dbo.vu_users' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <Function Name="SP_GenerateProductCode" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Id" Type="int" Mode="In" />
+  </Function>
   <EntityContainer Name="MatechcoModelStoreContainer">
     <EntitySet Name="tbl_product" EntityType="Self.tbl_product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_productType" EntityType="Self.tbl_productType" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="tbl_users" EntityType="Self.tbl_users" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>
